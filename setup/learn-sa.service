@@ -1,0 +1,6 @@
+[Unit]
+Description=Learn SPAM messages for Spam Assassin
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/usr/bin/java -jar mackoy.spamimporter-1.0-SNAPSHOT.jar -c config.yml -l

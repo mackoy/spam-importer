@@ -1,0 +1,9 @@
+[Unit]
+Description=SA-Lear Timer
+
+[Timer]
+OnActiveSec=5s
+OnUnitActiveSec=60s
+
+[Install]
+WantedBy=basic.target

@@ -1,0 +1,11 @@
+my:
+  host: mailhost
+  username: test@test.de
+  password: 123
+  folderName: INBOX
+  messageBatchCount: 100
+  saToolPath: /bin/sh
+  deleteMsg: false
+  learnMsg: false
+  learnAttachedMsgs: true
+  logSAToolOutput: true
